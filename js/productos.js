@@ -1,4 +1,5 @@
-almohadones3 = [ {
+const almohadones = [ 
+  {
     nombre: 'Almohadon Pestana',
     imagen: '1',
     color: 'avellana',
