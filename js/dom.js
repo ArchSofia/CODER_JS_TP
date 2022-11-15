@@ -26,7 +26,7 @@ const activarBotonesRemove = () => {
 	});
 };
 
-const cargarMisProductos = () => {
+const cargarLosProductos = () => {
 	almohadones.forEach((almohadon) => {
 		//console.table(producto)
 		contenedor.innerHTML += retornoCard(almohadon);
@@ -35,7 +35,7 @@ const cargarMisProductos = () => {
 	activarBotonesRemove();
 };
 
-cargarMisProductos();
+cargarLosProductos();
 
 const precioTotal = () => {
 	let precioTotalCarrito = 0;
